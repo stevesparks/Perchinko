@@ -15,6 +15,7 @@
 		0E4E56F626261B1100795587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4E56F426261B1100795587 /* LaunchScreen.storyboard */; };
 		0E4E570126261B1100795587 /* PerchinkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E570026261B1100795587 /* PerchinkoTests.swift */; };
 		0E4E570C26261B1100795587 /* PerchinkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E570B26261B1100795587 /* PerchinkoUITests.swift */; };
+		0E4E571D26261B2300795587 /* PerchinkoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E571C26261B2300795587 /* PerchinkoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0E4E570726261B1100795587 /* PerchinkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerchinkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4E570B26261B1100795587 /* PerchinkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchinkoUITests.swift; sourceTree = "<group>"; };
 		0E4E570D26261B1100795587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4E571C26261B2300795587 /* PerchinkoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchinkoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0E4E56F226261B1100795587 /* Assets.xcassets */,
 				0E4E56F426261B1100795587 /* LaunchScreen.storyboard */,
 				0E4E56F726261B1100795587 /* Info.plist */,
+				0E4E571C26261B2300795587 /* PerchinkoView.swift */,
 			);
 			path = Perchinko;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4E571D26261B2300795587 /* PerchinkoView.swift in Sources */,
 				0E4E56EE26261B0F00795587 /* ViewController.swift in Sources */,
 				0E4E56EA26261B0F00795587 /* AppDelegate.swift in Sources */,
 				0E4E56EC26261B0F00795587 /* SceneDelegate.swift in Sources */,
